@@ -1,0 +1,14 @@
+<template>
+        <require from="syncfusion-javascript/Content/ej/web/bootstrap-theme/ej.web.all.min.css"></require>
+        <require from="syncfusion-javascript/Content/ej/web/responsive-css/ej.responsive.css"></require>
+    
+    <div>
+        <ej-grid e-data-source.bind="OrdersList" e-page-settings.bind="page" e-allow-paging=true>
+            <ej-column e-field="OrderID" e-header-text="Order ID" e-text-align="right" e-width="75"></ej-column>
+            <ej-column e-field="CustomerID" e-header-text="Customer ID" e-width="90"></ej-column>
+            <ej-column e-field="EmployeeID" e-header-text="Employee ID" e-text-align="right" e-width="90"></ej-column>
+            <ej-column e-field="Freight" e-header-text="Freight" e-format="{0:C2}" e-text-align="right" e-width="75"></ej-column>
+            <ej-column e-field="ShipCountry" e-header-text="Ship Country" e-width="100"></ej-column>
+        </ej-grid>
+    </div>
+</template>
