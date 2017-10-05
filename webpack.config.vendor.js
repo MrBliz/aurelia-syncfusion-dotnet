@@ -35,8 +35,8 @@ module.exports = ({ prod } = {}) => {
                 'bootstrap',
                 'bootstrap/dist/css/bootstrap.css',
                 'jquery',
-                "aurelia-syncfusion-bridge",
-                "syncfusion-javascript"      
+                "aurelia-syncfusion-bridge"
+                   
             ],
         },
         output: {
